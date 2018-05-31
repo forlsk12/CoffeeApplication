@@ -13,7 +13,14 @@ public class Product {
     
     
 
-    //getter & setter
+    public Product(String code, String name, int price) {
+		super();
+		this.code = code;
+		this.name = name;
+		this.price = price;
+	}
+
+	//getter & setter
 	public String getCode() {
 		return code;
 	}
